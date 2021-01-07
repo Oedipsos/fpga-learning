@@ -1,0 +1,72 @@
+# Clock
+
+NET "clk_50MHz_i"   LOC = B8;
+
+# LEDs
+
+#NET "leds_o<7>"     LOC = G1;
+#NET "leds_o<6>"     LOC = P4;
+#NET "leds_o<5>"     LOC = N4;
+#NET "leds_o<4>"     LOC = N5;
+NET "leds_o<3>"     LOC = P6;
+NET "leds_o<2>"     LOC = P7;
+NET "leds_o<1>"     LOC = M11;
+NET "leds_o<0>"     LOC = M5;
+
+# Switches
+
+#NET "sw_i<7>"       LOC = N3; 
+#NET "sw_i<6>"       LOC = E2;
+#NET "sw_i<5>"       LOC = F3;
+#NET "sw_i<4>"       LOC = G3;
+#NET "sw_i<3>"       LOC = B4;
+#NET "sw_i<2>"       LOC = K3;
+#NET "sw_i<1>"       LOC = L3;
+#NET "sw_i<0>"       LOC = P11;
+
+# Push buttons
+
+#NET "btn_i<3>"      LOC = A7;
+#NET "btn_i<2>"      LOC = M4; 
+NET "btn_i<1>"      LOC = C11;
+NET "btn_i<0>"      LOC = G12;
+
+## 7-segments display
+#
+#NET "seg_o<0>"      LOC = L14;
+#NET "seg_o<1>"      LOC = H12;
+#NET "seg_o<2>"      LOC = N14;
+#NET "seg_o<3>"      LOC = N11;
+#NET "seg_o<4>"      LOC = P12;
+#NET "seg_o<5>"      LOC = L13;
+#NET "seg_o<6>"      LOC = M12;
+#NET "dp_o"          LOC = N13;
+#
+#NET "an_o<3>"       LOC = K14;
+#NET "an_o<2>"       LOC = M13;
+#NET "an_o<1>"       LOC = J12;
+#NET "an_o<0>"       LOC = F12;
+#
+## PS2
+#
+#NET "PS2C"          LOC = B1  | DRIVE = 2  | PULLUP;
+#NET "PS2D"          LOC = C3  | DRIVE = 2  | PULLUP;
+#
+## GPIOs
+#
+#NET "gpio<0>"       LOC = B2  | DRIVE = 2  | PULLUP; 
+#NET "gpio<1>"       LOC = A3  | DRIVE = 2  | PULLUP; 
+#NET "gpio<2>"       LOC = J3  | DRIVE = 2  | PULLUP; 
+#NET "gpio<3>"       LOC = B5  | DRIVE = 2  | PULLUP;
+#NET "gpio<4>"       LOC = C6  | DRIVE = 2  | PULLUP;
+#NET "gpio<5>"       LOC = B6  | DRIVE = 2  | PULLUP;
+#NET "gpio<6>"       LOC = C5  | DRIVE = 2  | PULLUP; 
+#NET "gpio<7>"       LOC = B7  | DRIVE = 2  | PULLUP; 
+#NET "gpio<8>"       LOC = A9  | DRIVE = 2  | PULLUP;
+#NET "gpio<9>"       LOC = B9  | DRIVE = 2  | PULLUP;
+#NET "gpio<10>"      LOC = A10 | DRIVE = 2  | PULLUP;
+#NET "gpio<11>"      LOC = C9  | DRIVE = 2  | PULLUP;
+#NET "gpio<12>"      LOC = C12  | DRIVE = 2  | PULLUP;
+#NET "gpio<13>"      LOC = A13  | DRIVE = 2  | PULLUP;
+#NET "gpio<14>"      LOC = C13  | DRIVE = 2  | PULLUP; 
+#NET "gpio<15>"      LOC = D12  | DRIVE = 2  | PULLUP;
